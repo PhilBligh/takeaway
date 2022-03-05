@@ -1,6 +1,11 @@
 require_relative 'meal'
+require_relative 'send_sms'
+
 
 class Order
+
+
+
   def initialize
     @order = []
   end
@@ -21,7 +26,7 @@ class Order
   end
 
   def submit_order
-    
+    message
   end
 end
 
@@ -35,3 +40,7 @@ end
 # my_order.add_to_order(apple_pie)
 # my_order.add_to_order(steak)
 # my_order.see_order
+
+ my_order = Order.new
+ my_order.submit_order
+
