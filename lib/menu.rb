@@ -17,12 +17,4 @@ class Menu
     }
   end
 
-
 end
-
-# my_menu = Menu.new
-# beans = Meal.new("beans", 3)
-# sausages = Meal.new("sausages", 5)
-# my_menu.add_meal(beans)
-# my_menu.add_meal(sausages)
-# my_menu.see_menu
